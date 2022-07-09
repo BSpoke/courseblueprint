@@ -2,10 +2,8 @@
 layout: default
 ---
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+<!-- <div class="home"> -->
+
 
   {{ content }}
 
@@ -27,11 +25,9 @@ layout: default
       </li>
       {%- endfor -%}
     </ul>
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
 
-</div>
+<!-- </div> -->
 <div class="bg-slate-800">
     <main>
       <!-- Hero section -->
@@ -40,7 +36,7 @@ layout: default
           <div>
             <div>
               <!-- <img class="h-auto w-80" src="cb-logo.png" alt="Workflow"> -->
-              <h1 class="text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl text-blue-400">Course Blueprint</h1>
+              <h1 class="text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl text-blue-400">{{ page.title }}</h1>
             </div>
             <div class="mt-20">
               <div class="mt-6 sm:max-w-xl space-y-6">
