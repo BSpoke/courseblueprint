@@ -34,7 +34,7 @@
                 {%- for path in page_paths -%}
                 {%- assign my_page = site.pages | where: "path", path | first -%}
                 {%- if my_page.title -%}
-                    <a class="page-link font-medium text-gray-200 hover:text-gray-300 visited:text-grey-200" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                    <a class="page-link font-medium text-gray-200 hover:text-gray-300 visited:text-gray-200" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
                 {%- endif -%}
                 {%- endfor -%}
               </div>
@@ -83,7 +83,7 @@
                 {%- for path in page_paths -%}
                 {%- assign my_page = site.pages | where: "path", path | first -%}
                 {%- if my_page.title -%}
-                    <a class="page-link block px-3 py-2 rounded-md text-base font-medium text-gray-200 hover:text-gray-300 hover:bg-slate-600 visited:text-grey-200" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                    <a class="page-link block px-3 py-2 rounded-md text-base font-medium text-gray-200 hover:text-gray-300 hover:bg-slate-600 visited:text-gray-200" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
                 {%- endif -%}
                 {%- endfor -%}
               </div>
