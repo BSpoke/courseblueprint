@@ -26,16 +26,19 @@
         </div>
       </nav>
     {%- endif -%}
-  </div>
+<!--   </div> -->
 
     <div class="bg-slate-700">
     <div class="relative overflow-hidden">
       <div class="absolute inset-y-0 h-full w-full" aria-hidden="true">
       </div>
+        {%- assign default_paths = site.pages | map: "path" -%}
+        {%- assign page_paths = site.header_pages | default: default_paths -%}
 
       <div class="relative pt-6 pb-16 sm:pb-6">
         <div>
           <div class="max-w-7xl mx-auto px-4 sm:px-6">
+            {%- if page_paths -%}
             <nav class="relative flex items-center justify-between sm:h-10 md:justify-center" aria-label="Global">
               <div class="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
                 <div class="flex items-center justify-between w-full md:w-auto">
@@ -54,14 +57,14 @@
                   </div>
                 </div>
               </div>
+              
               <div class="hidden md:flex md:space-x-10">
-                <a href="#" class="font-medium text-gray-200 hover:text-gray-300">Home</a>
-
-                <a href="#" class="font-medium text-gray-200 hover:text-gray-300">About</a>
-
-                <a href="#" class="font-medium text-gray-200 hover:text-gray-300">Blog</a>
-
-                <a href="#" class="font-medium text-gray-200 hover:text-gray-300">Courses and Resources</a>
+                {%- for path in page_paths -%}
+                {%- assign my_page = site.pages | where: "path", path | first -%}
+                {%- if my_page.title -%}
+                    <a class="page-link font-medium text-gray-200 hover:text-gray-300" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                {%- endif -%}
+                {%- endfor -%}
               </div>
               <!-- <div class="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
                 <span class="inline-flex rounded-md shadow">
@@ -69,6 +72,7 @@
                 </span>
               </div> -->
             </nav>
+            {%- endif -%}
           </div>
 
           <!--
