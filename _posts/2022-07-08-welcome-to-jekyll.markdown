@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
+description: "This is an episode test."
 date:   2022-07-08 12:29:23 -0400
 categories: jekyll
 author: "Margaret Reffell"
