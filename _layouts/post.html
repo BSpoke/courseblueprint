@@ -37,7 +37,7 @@ layout: default
       {%- if page.author -%}
         <span class="block text-base text-center text-slate-600 font-semibold tracking-wide uppercase" itemprop="author" itemtype="http://schema.org/Person" itemscope>{{ page.author }}</span>
       {%- endif -%}
-      <p class="post-meta">
+      <p class="post-meta text-center">
         <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
           {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
           {{ page.date | date: date_format }} | {{ site.categories }}
