@@ -27,6 +27,7 @@ url: "https://courseblueprint.co/" # the base hostname & protocol for your site,
 twitter_username: margreffell
 github_username:  reffellm
 excerpt_separator: <!--more-->
+permalink: /:title:output_ext
 
 # Build settings
 theme: minima
