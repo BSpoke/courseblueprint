@@ -58,6 +58,8 @@
               To: "opacity-0 scale-95"
           -->
           <div class="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+            {%- assign default_paths = site.pages | map: "path" -%}
+            {%- assign page_paths = site.header_pages | default: default_paths -%}
             <div class="rounded-lg shadow-md bg-slate-700 ring-1 ring-black ring-opacity-5 overflow-hidden">
               <div class="px-5 pt-4 flex items-center justify-between">
                 <div>
@@ -76,16 +78,17 @@
                   </button>
                 </div>
               </div>
+              {%- if page_paths -%}
               <div class="px-2 pt-2 pb-3 space-y-1">
-                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-200 hover:text-gray-300 hover:bg-slate-600">Product</a>
-
-                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-200 hover:text-gray-300 hover:bg-slate-600">Features</a>
-
-                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-200 hover:text-gray-300 hover:bg-slate-600">Marketplace</a>
-
-                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-200 hover:text-gray-300 hover:bg-slate-600">Company</a>
+                {%- for path in page_paths -%}
+                {%- assign my_page = site.pages | where: "path", path | first -%}
+                {%- if my_page.title -%}
+                    <a class="page-link block px-3 py-2 rounded-md text-base font-medium text-gray-200 hover:text-gray-300 hover:bg-slate-600" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                {%- endif -%}
+                {%- endfor -%}
               </div>
-              <a href="#" class="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100 hover:text-indigo-700"> Log in </a>
+               {%- endif -%}
+<!--               <a href="#" class="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100 hover:text-indigo-700"> Log in </a> -->
             </div>
           </div>
         </div>
