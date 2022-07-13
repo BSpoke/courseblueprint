@@ -28,10 +28,28 @@ Economic globalization has been pushing us into this direction for years. The pa
 
 ## The Pro's of Online Education
 
-
+- No commute! Save gas and money
+- Convenient
+- Comfortable and private
+- Recorded in case initial stream is missed
 
 
 ## The Con's of Online Education
+
+- Missing crucial socialization
+- Does not match all learning types
+- Heavily reliant on technology that may nat be available to many
+- Technology failings and glitches
+- Difficult to monitor plagarism
+
+
+All in all, the pros will end up outweighing the cons because most cons can be easily overcome with a hybrid model, and continued developments in testing and security. A combination of online material and in person practical workshops I believe is the future.
+
+So it's best to get on board, because online learning isn't going anywhere.
+
+Lookinf forward to what we can create together,
+
+Marg
 
 
 
