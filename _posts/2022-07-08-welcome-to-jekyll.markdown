@@ -10,7 +10,28 @@ author: "Margaret Reffell"
 
 ## What is an Online Course?
 
-You may be familiar with online courses under different names like "Online Program", "Membership Content Portal", and the newest on the scene "Knowledge Commerce" -- which refers to the selling of one's own knowledge for profit.
+You may be familiar with online courses under different names like "Online Program", "Membership Content Portal", and the newest term on the scene "Knowledge Commerce" -- which refers to the selling of one's own knowledge for profit.
+
+
+## The many forms of online courses
+
+When we talk about online courses, they are often approached with unfamiliararity and even skepticism, but the reality is online courses and programs have become a regular part of our lives, especially since 2020.
+
+At the beginning of the pandemic, we saw all schools move online as well as all professional trainings, conferences, and seminars. This threw the traditional schooling and employement systems into chaos. We were not prepareed for this whatsoever (and some still aren't).
+
+Love it or hate it, the world of online learning is here to stay, so we better get good at delivering.
+
+
+## What are the pros and cons? Why can't we just go back to "the way things were"?
+
+Economic globalization has been pushing us into this direction for years. The pandemic just accelerated what was eventually going to happen in the world of education. We can't go back, instead we must get better at moving forward.
+
+## The Pro's of Online Education
+
+
+
+
+## The Con's of Online Education
 
 
 
