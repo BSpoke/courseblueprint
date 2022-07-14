@@ -29,6 +29,7 @@ github_username:  reffellm
 excerpt_separator: <!--more-->
 permalink: /:title/
 
+
 # Build settings
 theme: minima
 plugins:
