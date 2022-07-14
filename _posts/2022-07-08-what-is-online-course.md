@@ -50,6 +50,3 @@ So it's best to get on board, because online learning isn't going anywhere.
 Looking forward to what we can create together,
 
 Marg
-
-
-
