@@ -5,6 +5,7 @@ permalink: /about/
 ---
 
 ## Heya! I'm Margaret
+{: .font-semibold }
 
 ### Your customers deserve a top notch online learning exprience, and you deserve seamless program launches.
 
