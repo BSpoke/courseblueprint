@@ -41,7 +41,8 @@ layout: default
         <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
           {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
           <!-- {{ page.date | date: date_format }} | {{ site.categories }} -->
-          {{ page.date | date: date_format }} | {{ post.categories }}
+          {{ page.date | date: date_format }} | {% for category in site.categories %}
+          {{ category[0] }}{% endfor %}
         </time>
       </p>
         
