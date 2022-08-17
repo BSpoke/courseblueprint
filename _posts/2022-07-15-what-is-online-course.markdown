@@ -7,6 +7,7 @@ date:   2022-07-08 12:29:23 -0400
 categories: Online Courses
 author: "Margaret Reffell"
 length: "4 min read"
+blogimage: "https://unsplash.com/photos/eTgMFFzroGc"
 ---
 
 ## What is an Online Course?
