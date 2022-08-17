@@ -6,6 +6,7 @@ excerpt: "You may be familiar with online courses under different names like Onl
 date:   2022-07-08 12:29:23 -0400
 categories: Online Courses
 author: "Margaret Reffell"
+length: "6 min read"
 ---
 
 ## What is an Online Course?
