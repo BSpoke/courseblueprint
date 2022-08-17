@@ -93,7 +93,7 @@ layout: default
           </div>
           {%- if site.posts.size > 0 -%}
           <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-            {%- for post in site.posts -%}
+            {%- for post in site.posts limit:3 -%}
             <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
               {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
               <div class="flex-shrink-0">
