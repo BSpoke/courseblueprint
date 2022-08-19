@@ -23,7 +23,7 @@ Here’s the 4 critical foundational elements you need to launch your online cou
 
 
 
-1. Landing Page Website
+## 1. Landing Page Website
 
 First things first, we need a place to send people to tell them more about the online course that you’ll be selling. In that, we will need a unique URL (website address) that brings us to a page with information about the program, and a course description on it.
 
@@ -49,7 +49,7 @@ Often the software you use will come with the option of obtaining a URL through 
 
 
 
-2. Checkout/Payment Processor
+## 2. Checkout/Payment Processor
 
 After people have been to your website and read about your online program, they need a way to purchase it from you. I highly recommend setting up the following accounts and hooking them up with your bank accounts to be able to receive payments.
 
@@ -69,7 +69,7 @@ Sometimes the checkout experience needs more features or an elevated level of ma
 
 
 
-3. Content Delivery Method
+## 3. Content Delivery Method
 
 After the customer has paid, they need to get access to the course materials. These materials can be in any format that best serves the content, but the most popular are PDF’s, videos, worksheets, spreadsheets, and audio recordings. The cheap/free options will allow you to upload all of those materials into a folder you give the customer access after purchase, and the advanced versions will allow you to put more complex restrictions on accessing that content (ie: time released, gated…).
 
@@ -91,7 +91,7 @@ After the customer has paid, they need to get access to the course materials. Th
 
 
 
-4. Email Service Provider (ESP)
+## 4. Email Service Provider (ESP)
 
 Once people are welcomed into your course, you will also need a way to keep in touch with them, and have them receive updates and support. Some people will just use a Facebook group, but I prefer to use software that gives me direct access to their inbox for important updates and future announcements. The complexity of the system you choose will be determined by the amount of contacts you have, and your future ongoing marketing efforts. However, the cheap/free solutions will bring you quite far.
 
