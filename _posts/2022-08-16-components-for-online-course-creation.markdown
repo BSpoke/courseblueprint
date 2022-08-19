@@ -3,7 +3,7 @@ layout: post
 title:  "4 REQUIRED Components of Launching and Online Course"
 description: "4 REQUIRED Components of Launching and Online Course"
 excerpt: "These are the 4 components you absolutely need when you're building an online course for the fist time."
-date:   2022-08-016 12:29:23 -0400
+date:   2022-08-16 12:29:23 -0400
 categories: Online Courses
 author: "Margaret Reffell"
 length: "8 min read"
