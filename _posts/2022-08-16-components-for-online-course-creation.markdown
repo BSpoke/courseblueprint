@@ -23,7 +23,7 @@ Here’s the 4 critical foundational elements you need to launch your online cou
 
 
 
-## 1. Landing Page Website
+## 1. Landing Page/Website
 
 First things first, we need a place to send people to tell them more about the online course that you’ll be selling. In that, we will need a unique URL (website address) that brings us to a page with information about the program, and a course description on it.
 
