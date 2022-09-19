@@ -6,7 +6,7 @@ excerpt: "Start with the end in mind. Setup your finances first."
 date:   2022-09-19 02:29:23 -0400
 categories: Online Courses
 author: "Margaret Reffell"
-length: "4 min read"
+length: "6 min read"
 blogimage: images/first.jpg
 ---
 
