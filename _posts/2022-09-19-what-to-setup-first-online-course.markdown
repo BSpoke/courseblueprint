@@ -47,7 +47,7 @@ There are other softwares that you can integrate with these payment processors t
 
 The checkout software step is optinal, so without it the funds would go directly from the purchaser, through the payment processor, and ultimately deposited into your account in a few days.
 
-![Workflow Image](/assets/flow.png)
+![Workflow Image](/images/flow.png)
 
 
 Happy course creation!
