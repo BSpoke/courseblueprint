@@ -45,7 +45,7 @@ There are other softwares that you can integrate with these payment processors t
 
 ## The Final Flow
 
-The checkout software step is optinal, so without it the funds would go directly from the purchaser, through the payment processor, and ultimately deposited into your account in a few days.
+The checkout software step is optional, so without it the funds would go directly from the purchaser, through the payment processor, and ultimately deposited into your account in a few days.
 
 ![Workflow Image](/images/flow.png)
 
